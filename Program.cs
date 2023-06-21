@@ -31,7 +31,7 @@ namespace Lab04_TicTacToe
             Console.WriteLine(Winner.Name);
   if (Winner != null)
             {
-                Console.WriteLine($"{Winner} is winner");
+                Console.WriteLine($"{Winner.Name} is winner");
 
             }
             else
@@ -39,7 +39,7 @@ namespace Lab04_TicTacToe
                 Console.WriteLine($"there is no winner ");
 
             }
-
+   Console.Readline( );
         }
        //
 
