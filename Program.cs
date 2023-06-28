@@ -33,14 +33,14 @@ namespace Lab04_TicTacToe
   if (Winner != null)
             {
                 Console.WriteLine($"{Winner.Name} is winner");
-           
+
             }
             else
             {
                 Console.WriteLine($"there is no winner ");
             
             }
-
+   Console.Readline( );
         }
        //
 
