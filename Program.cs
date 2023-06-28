@@ -4,12 +4,13 @@ using System;
 
 namespace Lab04_TicTacToe
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             StartGame();
+            Console.ReadLine();
         }
 
         static void StartGame()
@@ -37,7 +38,7 @@ namespace Lab04_TicTacToe
             else
             {
                 Console.WriteLine($"there is no winner ");
-
+            
             }
    Console.Readline( );
         }
